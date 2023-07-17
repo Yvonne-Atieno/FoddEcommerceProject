@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <style>
+        body{
+            background-color: yellowgreen;
+        }
+        .order{
+        width: 100%;
+        height: 100vh;
+        font-family: sans-serif;
+        background-color: g;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        
+        }
+        .now{
+        width: 650px;
+        height: 650px;
+        box-shadow: 0 0 40px 20px black;
+        background-color: orange;
+        border-radius: 30px;
+        }
+        .box{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        color: #000;
+
+        }
+        .box h1{
+        font-weight: normal;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        }
+        .input-box{
+        width: 40%;
+        background: transparent;
+        border: 1px solid wheat;
+        margin: 20px 30px;
+        height: 32px;
+        border-radius: 20px;
+        padding: 20px 10px;
+
+        box-sizing: border-box;
+        text-align: center;
+        color: white;
+        
+        }
+        .box img{
+            width: 150px;
+            align-items: center;
+            }
+            .head{
+                display: flex;
+                justify-content: space-around;
+                
+
+            }
+            button{
+        width: 20%;
+        background: transparent;
+        border: 1px solid red;
+        margin: 35px  30px;
+        height: 32px;
+        font-size: 15px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        color: black;
+        cursor: pointer;
+        background-color: tomato;
+    }
+    button:hover{
+        
+        background-color: springgreen;
+    }
+
+        
+    </style>
+</head>
+<body>
+    <div class="order">
+        <div class="now">
+            <div class="box">
+                <div class="head">
+                <img src="images/dairymeals/delivery.png.jpg" alt="">
+                <h1>free delivery on your <br> premises!!</h1>
+            </div>
+            
+                <form>
+                    
+
+                    <input type="text" class="input-box" placeholder="Your name">
+                    <input type="text" class="input-box" placeholder="Address">
+                    <input type="text" class="input-box" placeholder="Phone number">
+                    <input type="time" class="input-box" id="DeliveryTime" name="order"  >
+                    <input name="counties" list="counties" class="input-box" placeholder="choose Branch">
+                    <a href=""><button type="submit">Order Now</button></a>
+                        <datalist id="counties">
+                        <option value="Nairobi city">
+                        <option value="Kiambu town">
+                         <option value="Muranga town">
+                         <option value="Nyeri town">
+                        <option value="Meru town">
+                         <option value="Nakuru city">
+                        <option value="Mombasa city">
+                        <option value="Machakos town">
+                        <option value="Malindi">                               <option value="Machakos town">
+                        </option>
+                        <div class="btn">
+                            
+    
+                         </div>
+                        
+                     </form>
+                    
+                   
+                    
+
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>

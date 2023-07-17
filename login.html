@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    
+    .Sign{
+        width: 100%;
+        height: 100vh;
+        font-family: sans-serif;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .up{
+        width: 350px;
+        height: 500px;
+        box-shadow: 0 0 40px 20px white;
+        background-color: red;
+    }
+    .box{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        color: #000;
+    }
+    .box h1{
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .input-box{
+        width: 80%;
+        background: transparent;
+        border: 1px solid wheat;
+        margin: 6px 30px;
+        height: 32px;
+        border-radius: 20px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        outline: none;
+        text-align: center;
+        color: white;
+    }
+    ::placeholder{
+        color: aquamarine;
+        font-size: 20px;
+    }
+    button{
+        width: 80%;
+        background: transparent;
+        border: 1px solid whitesmoke;
+        margin: 35px  30px;
+        height: 32px;
+        font-size: 22px;
+        border-radius: 20px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        color: peru;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <div class="Sign">
+        <div class="up">
+            <div class="box">
+                <h1>Welcome to food place <br> Sign Up Today</h1>
+                <form>
+                    <input type="email" class="input-box" placeholder="Your Email" required >
+                    <input type="password" class="input-box"placeholder="password" required>
+                   <a href="menu.html"><button type="button" class="Submit-btn">Login</button></a>
+                </form>
+               <a href="signin.html"> <button type="button" class="btn">Don't have an account</button></a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+#container{
+   display: inline;
+   max-width: 100%;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:black;
+    font-family:cursive;
+    flex-wrap: wrap;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+nav h1{
+    font-size: 30px;
+    border-bottom: 5px solid red;
+    border-radius: 30px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration:none;
+}
+ul li a{
+    list-style: lower-roman;
+    margin-inline: 30px;
+    color: yellow;
+    text-decoration: none;
+}
+.btn button{
+width: 100px;
+height: 36px;
+border: 3px solid rgb(100, 10, 10);
+background-color: black;
+color: white;
+font-size: 18px;
+border-radius: 20px;
+margin-top: 12px;
+margin-right: 20px;
+}
+.btn button:hover{
+    color:palevioletred;
+    cursor: pointer;
+
+}
+.main-div{
+display: flex;
+justify-content: space-between;
+color: white;
+margin-top: 20px;
+}
+.head button{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(10, 70, 20);
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.head button:hover{
+    background-color: yellowgreen;
+    border-radius: 5px solid red;
+    cursor: pointer;
+}
+.head h1 span{
+    color: orange;
+}
+
+.main-div .head{
+    font-size: 30px;
+    margin-left: 40px;
+
+}
+.img img{
+    margin-right: 10px;
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+}
+.dropdown input{
+color: blue;
+
+
+}

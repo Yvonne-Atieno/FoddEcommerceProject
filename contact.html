@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in touch</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: wheat;
+    
+        }
+        .form{
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 50px;
+            text-align: center;
+            background-color: green;
+            margin-top: 20px;
+        }
+        h1{
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: red;
+        }
+        form{
+            display: inline-block;
+            flex-direction: 18px;
+            align-items: center;
+        }
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 0 5px white;
+            background-color: white;
+            
+        
+        }
+        input[type="submit"]{
+            background-color: red;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            width: 100px;
+            
+            transition: background-color 0.2s;
+        }
+        input[type="text"]{
+            background-color: white;
+            width: 100%;
+        }
+        .foot{
+            background-color: black;
+            display: flex;
+            place-items: center;
+            margin-top: 100px;
+        }
+        .foot img{
+            align-items: center;
+            padding-left: 20px;
+            margin-left: 40px;
+            text-align: center;
+        }
+        h2{
+            font-family: cursive;
+            font-size: 20px;
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+       <marquee behavior="style" direction="left"> <h1>Contact us</h1></marquee>
+        <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="eamil" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"cols="10" rows="4" required></textarea>
+        
+        
+        <a href="mailto:cyruskaguku@gmail.com?Subject = Talk to us"><input type="submit" value="Send"></a>
+
+
+        </form>
+        
+    </div>
+
+    <footer>
+        <div class="foot">
+           <marquee behavior="style" direction="left"> <h2>You can reach out to us through our social medial platforms:</h2>
+            <img src="images/logo3.jpg" alt="" width="70px">
+            <img src="images/images (1).png" alt="" width="100px">
+            <a href="https://wa.me/+254-0734803053"  target="_blank" rel="noopener noreferrer"><img src="images/images.jpeg" alt="" width="70px"></a>
+            <img src="images/images.png" alt="" width="70px"></marquee>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
